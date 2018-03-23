@@ -3,6 +3,10 @@
 
 #define CANTIDAD_NUMEROS 3
 
+//describir la funcion: tipo que devuelve; el nombre; lo que recibe. y luego las {llaves.
+ void imprimirMensaje (int n){
+     printf("Ingrese el numero %d:",n+1);
+ }
 
 int main()
 {
@@ -15,7 +19,8 @@ int main()
     for(i=0 ; i < CANTIDAD_NUMEROS ; i++)
     {
         //comentario
-        printf("Dame el Numero %d\n",i+1);
+        //printf("Dame el Numero %d\n",i+1);
+        imprimirMensaje(i);
         scanf("%d",&numeroUsuario);
         acumulador = acumulador + numeroUsuario;
         if(i==0)

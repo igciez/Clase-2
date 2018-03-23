@@ -14,6 +14,7 @@ int main()
     int numeroMinimo;
     for(i=0 ; i < CANTIDAD_NUMEROS ; i++)
     {
+        //comentario
         printf("Dame el Numero %d\n",i+1);
         scanf("%d",&numeroUsuario);
         acumulador = acumulador + numeroUsuario;
